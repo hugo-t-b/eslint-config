@@ -1,0 +1,34 @@
+{
+  "name": "@hugo-t-b/eslint-config",
+  "version": "1.0.0",
+  "description": "My ESLint configuration for JS, TS, and Vue",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "build": "tsc",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugo-t-b/eslint-config.git"
+  },
+  "keywords": [
+    "lint",
+    "eslint",
+    "config",
+    "javascript",
+    "typescript",
+    "vue"
+  ],
+  "author": "Hugo Brosnahan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugo-t-b/eslint-config/issues"
+  },
+  "homepage": "https://github.com/hugo-t-b/eslint-config#readme",
+  "devDependencies": {
+    "typescript": "^4.7.2",
+    "vitest": "^0.12.9"
+  }
+}
