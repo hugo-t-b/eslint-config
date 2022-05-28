@@ -27,6 +27,21 @@
     "url": "https://github.com/hugo-t-b/eslint-config/issues"
   },
   "homepage": "https://github.com/hugo-t-b/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">=6.0.0",
+    "typescript": ">=3.3.1",
+    "@typescript-eslint/eslint-plugin": ">=5.x.x",
+    "@typescript-eslint/parser": ">=5.x.x",
+    "vitest": "*"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    },
+    "vitest": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "@types/node": "^17.0.35",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
