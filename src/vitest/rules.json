@@ -1,0 +1,21 @@
+{
+  "no-magic-numbers": "off",
+
+  "object-curly-newline": [
+    "error",
+
+    {
+      "ExportDeclaration": {
+        "multiline": true
+      },
+
+      "ImportDeclaration": "never",
+
+      "ObjectExpression": {
+        "consistent": true
+      },
+
+      "ObjectPattern": "never"
+    }
+  ]
+}
