@@ -1,0 +1,1 @@
+extends: ./dist/vitest/index.js
