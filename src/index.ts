@@ -1,5 +1,5 @@
-import { defaultEnv, defaultParserOptions } from "defaults";
-import { ESLintConfig } from "types";
+import { defaultEnv, defaultParserOptions, defaultPlugins } from "defaults";
+import type { ESLintConfig } from "types";
 import rules from "rules.json";
 
 const config: ESLintConfig = {
@@ -9,6 +9,7 @@ const config: ESLintConfig = {
 
   env: defaultEnv,
   parserOptions: defaultParserOptions,
+  plugins: defaultPlugins,
   rules
 };
 

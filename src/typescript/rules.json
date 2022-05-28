@@ -1,0 +1,107 @@
+{
+  "brace-style": "off",
+  "comma-dangle": "off",
+  "comma-spacing": "off",
+  "default-param-last": "off",
+  "dot-notation": "off",
+  "func-call-spacing": "off",
+  "init-declarations": "off",
+  "keyword-spacing": "off",
+  "lines-between-class-members": "off",
+  "no-array-constructor": "off",
+  "no-dupe-class-members": "off",
+  "no-empty-function": "off",
+  "no-extra-parens": "off",
+  "no-extra-semi": "off",
+  "no-implied-eval": "off",
+  "no-invalid-this": "off",
+  "no-magic-numbers": "off",
+  "no-redeclare": "off",
+  "no-shadow": "off",
+  "no-throw-literal": "off",
+  "no-unused-expressions": "off",
+  "no-unused-vars": "off",
+  "no-useless-constructor": "off",
+  "object-curly-spacing": "off",
+  "quotes": "off",
+  "require-await": "off",
+  "semi": "off",
+  "space-before-function-paren": "off",
+  "space-infix-ops": "off",
+
+  "@typescript-eslint/array-type": "error",
+  "@typescript-eslint/brace-style": "error",
+  "@typescript-eslint/comma-dangle": "error",
+  "@typescript-eslint/comma-spacing": "error",
+
+  "@typescript-eslint/consistent-type-assertions": [
+    "error",
+
+    {
+      "objectLiteralTypeAssertions": "never"
+    }
+  ],
+
+  "@typescript-eslint/consistent-type-definitions": "error",
+  "@typescript-eslint/consistent-type-exports": "error",
+  "@typescript-eslint/consistent-type-imports": "error",
+  "@typescript-eslint/default-param-last": "error",
+  "@typescript-eslint/dot-notation": "error",
+  "@typescript-eslint/func-call-spacing": "error",
+  "@typescript-eslint/init-declarations": "error",
+  "@typescript-eslint/keyword-spacing": "error",
+
+  "@typescript-eslint/lines-between-class-members": [
+    "error",
+    "always",
+
+    {
+      "exceptAfterSingleLine": true
+    }
+  ],
+
+  "@typescript-eslint/member-delimiter-style": "error",
+  "@typescript-eslint/no-array-constructor": "error",
+  "@typescript-eslint/no-dupe-class-members": "error",
+  "@typescript-eslint/no-empty-function": "error",
+  "@typescript-eslint/no-extra-parens": "error",
+  "@typescript-eslint/no-extra-semi": "error",
+  "@typescript-eslint/no-implied-eval": "error",
+  "@typescript-eslint/no-invalid-this": "error",
+
+  "@typescript-eslint/no-magic-numbers": [
+    "error",
+
+    {
+      "ignoreDefaultValues": true
+    }
+  ],
+
+  "@typescript-eslint/no-redeclare": "error",
+  "@typescript-eslint/no-shadow": "error",
+  "@typescript-eslint/no-throw-literal": "error",
+  "@typescript-eslint/no-unused-expressions": "error",
+  "@typescript-eslint/no-unused-vars": "error",
+  "@typescript-eslint/no-useless-constructor": "error",
+
+  "@typescript-eslint/object-curly-spacing": [
+    "error",
+    "always"
+  ],
+
+  "@typescript-eslint/quotes": "error",
+  "@typescript-eslint/require-await": "error",
+  "@typescript-eslint/semi": "error",
+
+  "@typescript-eslint/space-before-function-paren": [
+    "error",
+
+    {
+      "anonymous": "always",
+      "named": "never",
+      "asyncArrow": "always"
+    }
+  ],
+
+  "@typescript-eslint/space-infix-ops": "error"
+}

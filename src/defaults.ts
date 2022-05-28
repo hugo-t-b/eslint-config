@@ -1,4 +1,4 @@
-import { ESLintEnv, ParserOptions } from "types";
+import type { ESLintEnv, ESLintPlugins, ParserOptions } from "types";
 
 export const defaultEnv: ESLintEnv = {
   browser: true,
@@ -9,3 +9,5 @@ export const defaultEnv: ESLintEnv = {
 export const defaultParserOptions: ParserOptions = {
   sourceType: "module"
 };
+
+export const defaultPlugins: ESLintPlugins = [];
