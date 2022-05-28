@@ -1,5 +1,5 @@
 {
-  "no-magic-numbers": "off",
+  "@typescript-eslint/no-magic-numbers": "off",
 
   "object-curly-newline": [
     "error",
