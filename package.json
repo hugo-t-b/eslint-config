@@ -13,8 +13,8 @@
     "preinstall": "npx only-allow pnpm",
     "prepublishOnly": "pnpm test && pnpm build",
     "build": "tsc",
-    "lint": "tsc && eslint .",
-    "test": "vitest"
+    "lint": "pnpm build && eslint .",
+    "test": "vitest --run"
   },
   "repository": {
     "type": "git",
