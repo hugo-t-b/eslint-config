@@ -1,6 +1,6 @@
-import { defaultEnv, defaultParserOptions, defaultPlugins } from "typescript/defaults";
-import type { ESLintConfig } from "types";
-import rules from "typescript/rules.json";
+import { defaultEnv, defaultParserOptions, defaultPlugins } from "./defaults";
+import type { ESLintConfig } from "../types";
+import rules from "./rules.json";
 
 const config: ESLintConfig = {
   extends: [
@@ -16,4 +16,4 @@ const config: ESLintConfig = {
   rules
 };
 
-export default config;
+export = config;

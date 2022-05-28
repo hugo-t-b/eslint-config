@@ -15,5 +15,6 @@ export type ESLintPlugins = string[];
 
 export interface ParserOptions {
   ecmaVersion?: number;
+  project?: string;
   sourceType?: "script" | "module";
 };

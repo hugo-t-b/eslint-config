@@ -6,6 +6,7 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "tsc",
+    "lint": "tsc && eslint .",
     "test": "vitest"
   },
   "repository": {
