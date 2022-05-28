@@ -40,7 +40,7 @@
     "eslint": ">=6.0.0 <9.0.0",
     "eslint-import-resolver-typescript": "2.x.x",
     "eslint-plugin-import": "2.x.x",
-    "typescript": ">=3.3.1 <4.7.0",
+    "typescript": ">=3.3.1 <4.8.0",
     "vitest": "*"
   },
   "peerDependenciesMeta": {
@@ -55,7 +55,7 @@
     }
   },
   "devDependencies": {
-    "@types/node": "^17.0.35",
+    "@types/node": "^17.0.36",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.16.0",
