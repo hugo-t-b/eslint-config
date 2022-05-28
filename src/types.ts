@@ -5,6 +5,7 @@ export interface ESLintConfig {
   parserOptions?: ParserOptions;
   plugins?: ESLintPlugins;
   rules?: object;
+  settings?: object;
 }
 
 export interface ESLintEnv {

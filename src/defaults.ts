@@ -10,4 +10,8 @@ export const defaultParserOptions: ParserOptions = {
   sourceType: "module"
 };
 
-export const defaultPlugins: ESLintPlugins = [];
+export const defaultPlugins: ESLintPlugins = [
+  "import"
+];
+
+export const defaultSettings = {};

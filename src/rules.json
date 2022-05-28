@@ -75,6 +75,7 @@
 
   "guard-for-in": "error",
   "implicit-arrow-linebreak": "error",
+  "import/no-duplicates": "error",
 
   "indent": [
     "error",
@@ -115,7 +116,6 @@
   ],
 
   "no-constructor-return": "error",
-  "no-duplicate-imports": "error",
 
   "no-else-return": [
     "error",

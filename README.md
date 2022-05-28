@@ -33,6 +33,6 @@ extends: "@hugo-t-b/eslint-config/typescript" # or /vitest
 # ...
 ```
 
-Note: a `tsconfig.json` file is required for both the TypeScript and Vitest configs.
+You will need a `tsconfig.json` file and to have installed `eslint-import-resolver-typescript` to use the TypeScript or Vitest config.
 
 All rules can be modified or turned off with the `rules` property in your `.eslintrc`.
