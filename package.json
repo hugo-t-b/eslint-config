@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "My ESLint configuration for JS, TS, and Vue",
   "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./javascript": "./dist/index.js",
+    "./typescript": "./dist/typescript/index.js",
+    "./vitest": "./dist/vitest/index.js"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "tsc",
