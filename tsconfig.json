@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es2018",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "skipLibCheck": true,
+  
+    "lib": [
+      "es2015",
+      "es2017",
+      "esNext.asynciterable"
+    ],
+
+    "strict": true
+  },
+
+  "include": [
+    "./src/**/*.ts"
+  ]
+}
