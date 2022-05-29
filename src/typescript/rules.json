@@ -2,6 +2,7 @@
   "brace-style": "off",
   "comma-dangle": "off",
   "comma-spacing": "off",
+  "consistent-return": "off",
   "default-param-last": "off",
   "dot-notation": "off",
   "func-call-spacing": "off",
