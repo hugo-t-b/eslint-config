@@ -7,7 +7,8 @@
     ".": "./dist/index.js",
     "./javascript": "./dist/index.js",
     "./typescript": "./dist/typescript/index.js",
-    "./vitest": "./dist/vitest/index.js"
+    "./vitest": "./dist/vitest/index.js",
+    "./vue": "./dist/vue/index.js"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -40,8 +41,10 @@
     "eslint": ">=6.0.0 <9.0.0",
     "eslint-import-resolver-typescript": "2.x.x",
     "eslint-plugin-import": "2.x.x",
+    "eslint-plugin-vue": "9.x.x",
     "typescript": ">=3.3.1 <4.8.0",
-    "vitest": "*"
+    "vitest": "*",
+    "vue-eslint-parser": "9.x.x"
   },
   "peerDependenciesMeta": {
     "@typescript-eslint/eslint-plugin": {
@@ -51,6 +54,9 @@
       "optional": true
     },
     "eslint-import-resolver-typescript": {
+      "optional": true
+    },
+    "eslint-plugin-vue": {
       "optional": true
     },
     "typescript": {
