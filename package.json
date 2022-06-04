@@ -64,6 +64,9 @@
     },
     "vitest": {
       "optional": true
+    },
+    "vue-eslint-parser": {
+      "optional": true
     }
   },
   "devDependencies": {
