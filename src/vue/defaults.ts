@@ -6,7 +6,9 @@ export const defaultParserOptions: ParserOptions = {
   parser: {
     js: "espree",
     ts: "@typescript-eslint/parser"
-  }
+  },
+
+  project: "tsconfig.json"
 };
 
 export const defaultPlugins: ESLintPlugins = [
