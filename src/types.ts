@@ -1,6 +1,6 @@
 export interface ESLintConfig {
   env?: ESLintEnv;
-  extends?: string[];
+  extends?: string | string[];
   parser?: string;
   parserOptions?: ParserOptions;
   plugins?: ESLintPlugins;

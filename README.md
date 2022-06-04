@@ -48,8 +48,12 @@ This config builds on top of the TypeScript one, so you will need to follow the 
 
 ### Vue
 
+You will need to add the JavaScript config before the Vue one in the `extends` property of your `.eslintrc`:
+
 ```yaml
-extends: "@hugo-t-b/eslint-config/vue"
+extends: 
+  - "@hugo-t-b"
+  - "@hugo-t-b/eslint-config/vue"
 # ...
 ```
 

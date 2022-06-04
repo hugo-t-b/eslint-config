@@ -5,10 +5,7 @@ import rules from "./rules.json";
 const config: ESLintConfig = {
   env: defaultEnv,
 
-  extends: [
-    "plugin:vue/vue3-recommended",
-    "../index.js"
-  ],
+  extends: "plugin:vue/vue3-recommended",
 
   parser: "vue-eslint-parser",
   parserOptions: defaultParserOptions,
