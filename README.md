@@ -69,3 +69,5 @@ extends:
   - "@hugo-t-b/eslint-config/vue"
 # ...
 ```
+
+Note: you will need a `script` or `<script setup>` with the `lang` set to `ts` in every SFC. To remove this requirement, set `parserOptions.parser` to `@typescript-eslint/parser` in your `.eslintrc`.
