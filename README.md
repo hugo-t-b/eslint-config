@@ -1,6 +1,6 @@
 # My ESLint Config
 
-This is my ESLint configuration for JavaScript, TypeScript, Vitest unit tests, and Vue Single File Components (coming soon).
+This is my ESLint configuration for [JavaScript](#usage), [TypeScript](#typescript), [Vitest unit tests](#vitest), and [Vue Single File Components](#vue).
 
 ## Installation
 
@@ -26,13 +26,42 @@ extends: "@hugo-t-b"
 # ...
 ```
 
-To use the TypeScript or Vitest config:
+All rules can be modified or turned off with the `rules` property in your `.eslintrc`.
+
+### TypeScript
 
 ```yaml
-extends: "@hugo-t-b/eslint-config/typescript" # or /vitest
+extends: "@hugo-t-b/eslint-config/typescript"
 # ...
 ```
 
-You will need a `tsconfig.json` file and to have installed `@typescript-eslint/eslint-plugin`, `@typescript-eslint/parser`, and `eslint-import-resolver-typescript` to use the TypeScript or Vitest config.
+You will need a `tsconfig.json` file and to have installed `@typescript-eslint/eslint-plugin`, `@typescript-eslint/parser`, and `eslint-import-resolver-typescript`.
 
-All rules can be modified or turned off with the `rules` property in your `.eslintrc`.
+### Vitest
+
+```yaml
+extends: "@hugo-t-b/eslint-config/vitest"
+# ...
+```
+
+This config builds on top of the TypeScript one, so you will need to follow the steps needed for it to work.
+
+### Vue
+
+```yaml
+extends: "@hugo-t-b/eslint-config/vue"
+# ...
+```
+
+You will need to have installed `eslint-plugin-vue` and `vue-eslint-parser`.
+
+### With the TypeScript config
+
+The Vue config works with the TypeScript config automatically. Once you have followed the steps needed for both to work, add the TypeScript config before the Vue one in the `extends` property of your `.eslintrc`:
+
+```yaml
+extends:
+  - "@hugo-t-b/eslint-config/typescript"
+  - "@hugo-t-b/eslint-config/vue"
+# ...
+```
