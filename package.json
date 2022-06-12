@@ -10,6 +10,7 @@
     "./vitest": "./dist/vitest/index.js",
     "./vue": "./dist/vue/index.js"
   },
+  "types": "./dist/index.d.ts",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepublishOnly": "pnpm test && pnpm build",
