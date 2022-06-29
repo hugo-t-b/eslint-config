@@ -16,7 +16,8 @@
     "prepublishOnly": "pnpm test && pnpm build",
     "build": "tsc",
     "lint": "pnpm build && eslint .",
-    "test": "vitest --run"
+    "test": "vitest --run",
+    "typecheck": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
