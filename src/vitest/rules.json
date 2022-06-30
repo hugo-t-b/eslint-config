@@ -1,5 +1,6 @@
 {
   "@typescript-eslint/no-empty-function": "off",
+  "@typescript-eslint/no-floating-promises": "off",
   "@typescript-eslint/no-magic-numbers": "off",
 
   "object-curly-newline": [
