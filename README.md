@@ -59,7 +59,7 @@ extends:
 
 You will need to have installed `eslint-plugin-vue` and `vue-eslint-parser`.
 
-### With the TypeScript config
+#### With the TypeScript config
 
 The Vue config works with the TypeScript config automatically. Once you have followed the steps needed for both to work, add the TypeScript config before the Vue one in the `extends` property of your `.eslintrc`:
 
