@@ -1,6 +1,6 @@
 {
   "name": "@hugo-t-b/eslint-config",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "description": "My ESLint configuration for JS, TS, and Vue",
   "main": "./dist/index.js",
   "exports": {
