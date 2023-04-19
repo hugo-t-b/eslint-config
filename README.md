@@ -1,6 +1,6 @@
 # My ESLint Config
 
-This is my ESLint configuration for [JavaScript](#usage), [TypeScript](#typescript), [Vitest unit tests](#vitest), and [Vue Single File Components](#vue).
+This is my ESLint configuration for [JavaScript](#usage), [TypeScript](#typescript), [Vitest unit tests](#vitest), and [Vue SFCs](#vue).
 
 ## Installation
 
@@ -44,7 +44,7 @@ extends: "@hugo-t-b/eslint-config/vitest"
 # ...
 ```
 
-This config builds on top of the TypeScript one, so you will need to follow the steps needed for it to work.
+This config builds on the TypeScript one, so you will need to follow the steps needed for that to work.
 
 ### Vue
 
