@@ -142,7 +142,8 @@
     "error",
 
     {
-      "ignoreDefaultValues": true
+      "ignoreDefaultValues": true,
+      "ignoreClassFieldInitialValues": true 
     }
   ],
 
